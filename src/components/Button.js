@@ -6,7 +6,7 @@ const DefaultButton = ({
   type = "default",
   icon,
   onClick,
-  className,
+  className = "",
 }) => {
   const buttonType = {
     default: "",

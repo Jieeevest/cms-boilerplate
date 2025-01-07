@@ -180,6 +180,7 @@ export default function Demo1() {
                 <Button
                   text="Danger Action"
                   appearance="danger"
+                  icon={"ki-outline ki-plus-squared"}
                   onClick={() => alert("Danger button clicked!")}
                 />
               </div>
